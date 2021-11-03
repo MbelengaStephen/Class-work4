@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+  background-color: #FFADAD;
+}
+  .star{
+    width: 20%;
+  }
+  .rectangle{
+    width: 20%;
+  }
+  .circle{
+    width: 20%;
+  }
+  .triangle{
+    width: 20%;
+  }
+
+.navbar-brand, .navbar-nav{
+  margin: 2%;
+}
+.horizontal-nav{
+  background-color: #000000;
+  color: #fff;
+}
+
+.colored-section{
+  color: #fff;
+  text-align: left;
+  padding: 3% 2%;
+}
+/* Form Section */
+#form{
+  padding: 7% 1%;
+}
+
+/* Footer */
+
+.previous{
+margin-left: auto;
+padding: 3% 7%;
+  color: #113CFC;
+}
+.next{
+  margin-right: auto;
+  padding: 3% 7%;
+  color: #113CFC;
+}
+.previous:hover{
+  color: #E02401;
+}
+.next:hover{
+  color: #E02401;
+}
+@media (min-width:560px){
+  #footer{
+    position: static;
+  }
+
+}
