@@ -1,6 +1,5 @@
 body{
   text-align: center;
-  background-color: #FFADAD;
 }
   .star{
     width: 20%;
@@ -14,7 +13,15 @@ body{
   .triangle{
     width: 20%;
   }
-
+  .bar-nav{
+    background-color: #C2FFF9;
+  }
+.images-icea{
+  background-color: #9C19E0;
+}
+.details{
+  background-color: #FFADAD;
+}
 .navbar-brand, .navbar-nav{
   margin: 2%;
 }
@@ -26,23 +33,23 @@ body{
 .colored-section{
   color: #fff;
   text-align: left;
-  padding: 3% 2%;
+  /* padding: 3% 2%; */
 }
 /* Form Section */
 #form{
   padding: 7% 1%;
 }
-
+.submit{
+  margin-left: auto;
+}
 /* Footer */
 
 .previous{
 margin-left: auto;
-padding: 3% 7%;
   color: #113CFC;
 }
 .next{
   margin-right: auto;
-  padding: 3% 7%;
   color: #113CFC;
 }
 .previous:hover{
